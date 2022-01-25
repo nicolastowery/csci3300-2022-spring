@@ -8,4 +8,4 @@ git clone --> get a repositiory
 git add --> mark a file to be included in next commit
 
 git commit --> commit all files to the local repository
-    -->requires coomments
+    -->requires comments
