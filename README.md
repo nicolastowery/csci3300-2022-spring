@@ -9,3 +9,5 @@ git add --> mark a file to be included in next commit
 
 git commit --> commit all files to the local repository
     -->requires comments
+
+git push --> upload the changes to github
