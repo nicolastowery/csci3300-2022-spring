@@ -1,0 +1,24 @@
+Five HTML properties for links that can be edited with CSS
+-------------------------------------------------------------
+link(unvisited) = purple
+
+visited = purple
+
+active(physically holding your mouse button on the link) = red
+
+hover(mouse pointer over the link) = none
+
+focus = dotted line box
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+create a stylesheet doc
+--------------------------
+inside of the head tag
+<link rel = stylesheet href = "style.css">
+
+ctrl click the style.css to open the file and select create file
+
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+you can also put css in a style tag or inline

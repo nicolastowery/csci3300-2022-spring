@@ -1,0 +1,40 @@
+
+/*
+tags
+*/
+h1{
+    font-size: 300%;
+}
+
+p{
+    font-size: 20pt;
+}
+
+li{
+    font-size: 30px;
+}
+
+/*
+ids
+*/
+#welcome-message{
+    text-decoration: line-through; 
+    color: limegreen;
+}
+
+#box{
+    border: 1px solid black;
+    padding:3px;
+    margin:50px;
+    width:fit-content;
+    box-sizing:border-box;
+}
+
+/*
+classes
+*/
+.list{
+    color: indianred;
+}
+
+
