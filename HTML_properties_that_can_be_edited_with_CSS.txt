@@ -22,3 +22,7 @@ ctrl click the style.css to open the file and select create file
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 you can also put css in a style tag or inline
+
+id symbol is "#"
+
+class symbol is ".

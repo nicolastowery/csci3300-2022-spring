@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Input Forms</title>
+    <metea charset="utf-8"></metea>
+  </head>
+  <body>
+    <h1>Input Forms</h1>
+    <hr />
+
+    <form name="myform">
+      <div>
+        <label for="firstname">First name:</label>
+        <input type="text" name="firstname" id="firstname" />
+      </div>
+
+      <div>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname" id="lastname" />
+      </div>
+
+      <div>
+        What is your favorite color?
+
+        <ul>
+          <li>
+            <input type="radio" name="color" id="red" value="red" />
+            <label for="red">Red</label>
+          </li>
+          <li>
+            <input type="radio" name="color" id="green" value="green" />
+            <label for="green">Green</label>
+          </li>
+          <li>
+            <input type="radio" name="color" id="blue" value="blue" /><label for="blue">Blue</label>
+          </li>
+        </ul>
+      </div>
+      <div>
+        What pets do you own?
+        <ul>
+          <li>
+            <input type="checkbox" name="pet" id="dog" value="dog" />
+            <label for="dog">Dog</label>
+          </li>
+          <li>
+            <input type="checkbox" name="pet" id="cat" value="cat" />
+            <label for="cat">Cat</label>
+          </li>
+          <li>
+            <input type="checkbox" name="pet" id="bunny" value="bunny" />
+            <label for="bunny">Bunny</label>
+          </li>
+        </ul>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
