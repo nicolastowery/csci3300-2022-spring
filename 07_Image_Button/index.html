@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image</title>
+        <meta charset = "utf-8">
+        <script>
+            function getPhoto(){
+                document.getElementById("photo").innerHTML= '<img src = "photo.jpg" alt = "photo">';
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Image Button</h1>
+        <hr>
+        <form name = "myform" action = "javascript:getPhoto()">
+            <input type ="submit" value ="get the photo">
+        </form>
+
+        <hr>
+        <div id="photo">(Photo will go here)</div>
+        
+    </body>
+
+</html>

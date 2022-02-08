@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello JS</title>
+        <meta charset = "utf-8">
+        <script>
+            function sayHello(){
+                //let name = prompt("What is your name?");
+                //alert("Hello, " +name +".");
+                let name = document.hello.firstname.value;
+                document.getElementById("greeting").innerHTML="Hello, <b>"+name +"</b>";
+            }
+        </script>
+    </head>
+    <body>
+        <form name="hello" action="javascript:sayHello()">
+            <label for="firstname">First name:</label><input type="text" name="firstname" id="firstname">
+            <input type="submit">
+        </form>
+        <div id="greeting"></div>
+    </body>
+</html>

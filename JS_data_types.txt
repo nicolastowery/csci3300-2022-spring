@@ -1,0 +1,37 @@
+ The memory in JS is managed for you, unless if you are doing something super complex, you'll never think about this
+
+VARIABLES
+ Only characters you can use for variable names
+    letters
+    numbers
+    underscore
+    dollar sign
+
+All language letters are supported, but it is advised you only use English
+
+Variables cannot be named keywords that do something
+    example: function
+
+Can't start a name with a nunmber
+Can't use a math op in a name
+Can't use punctuation in a name
+Can't use a space in a name
+
+Names are case sensitive
+
+camelCase is the notation used for cariable names
+
+Variables don't have int or String in front of them. You just say let x = 4; or let y = "hello";
+
+=========================================================================================================================================================================
+
+TYPES
+
+Strings can be defined using "" '' ``
+
+Single and Double quotes: only one line of string
+
+Backticks: multiline strings
+    can also embed variables in a string like so: `the variable is ${x}`
+
+Exponents: Math.pow(a,b) or a**b
