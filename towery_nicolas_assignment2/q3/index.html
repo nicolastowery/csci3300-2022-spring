@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+    Nicolas Towery
+    CSCI 3350
+    Section 4
+    February 8, 2022
+-->
+<html lang = "en">
+    <head>
+        <title>Nicolas' Shouting App</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "../style.css">
+        <script>
+            function shoutingApp(){
+              let shout = document.getElementById("input").value.toUpperCase();
+              document.getElementById("allCaps").innerHTML = shout;
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Nicolas' Shouting App</h1>
+        </header>
+        <main>
+            <form name="startApp" action="javascript:shoutingApp()">
+                <label for="input">What would you like to shout? </label>
+                <input type ="text" name="input" id="input">
+                <input type ="submit" value="Shout it!">
+            </form>
+            <div id="allCaps"></div>
+        </main>
+        <footer>
+            <hr>
+            &copy; Nicolas Towery 2022
+        </footer>
+    </body>
+</html>

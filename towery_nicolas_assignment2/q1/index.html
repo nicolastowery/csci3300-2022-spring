@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+    Nicolas Towery
+    CSCI 3350
+    Section 4
+    February 8, 2022
+-->
+<html lang="en">
+    <head>
+        <title>Nicolas' Book Application</title>
+        <meta charset = "utf-8">
+        <script>
+            function form(){
+
+                let title = document.getElementById("titleInput").value;
+                let author = document.getElementById("authorInput").value;
+                let subject = document.getElementById("subjectInput").value;
+                
+                document.getElementById("title").innerHTML = title;
+                document.getElementById("author").innerHTML = author;
+                document.getElementById("subject").innerHTML = subject;
+            }
+        </script>
+        <link rel = stylesheet href = "../style.css">    
+    </head>
+    <body>
+        <header>
+            <h1>Nicolas' Book Application</h1>
+        </header>
+
+        <main>
+            <div id="title"></div>
+            <div id="author"></div>
+            <div id="subject"></div>
+    
+            <form name="myForm" action="javascript:form()">
+                <ul>
+                    <li>
+                        <label for="titleInput">Title: </label>
+                        <input type="text" name="title" id="titleInput">
+                    </li>
+                    <li>
+                        <label for="authorInput">Author: </label>
+                        <input type="text" name="author" id="authorInput">
+                    </li>
+                    <li>
+                        <label for="subjectInput">Subject: </label>
+                        <input type="text" name="subject" id="subjectInput">
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+        </main>
+
+
+        <footer>
+            <hr>
+            &copy; Nicolas Towery 2022
+        </footer>
+    </body>
+</html>

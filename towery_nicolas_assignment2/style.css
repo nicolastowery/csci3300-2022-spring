@@ -1,0 +1,11 @@
+body{
+    background-color: cornsilk;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: crimson;
+    color: black;
+    border: 1px black solid;
+    margin-bottom: 50px;
+}

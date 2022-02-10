@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+    Nicolas Towery
+    CSCI 3300
+    Section 4
+    February 9, 2022
+-->
+<html lang = "en">
+    <head>
+        <title>Nicolas' Movie Ticket Ticket App</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href="../style.css">
+        <script>
+            function priceCalculation(){
+                let price = 0;
+                let age = parseFloat(document.getElementById("age").value);
+                
+                if(age<0){
+                    document.getElementById("price").innerHTML = "You can't be negative years old!";
+                }
+                else if(age<12 && age>=0){
+                    price = 0;
+                    document.getElementById("price").innerHTML = "Your ticket price is free!";
+                }
+                else if(age>=12 && age<=16){
+                    price = 10;
+                    document.getElementById("price").innerHTML = "Your ticket price is $" +price +".00."
+                }
+                else{
+                    price = 13;
+                    document.getElementById("price").innerHTML = "Your ticket price is $" +price +".00."
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Nicolas' Movie Ticket Ticket App</h1>
+        </header>
+         <main>
+            <h2>Ticket Prices</h2>
+            <ul>
+                <li>Age 11 and under: FREE</li>
+                <li>Age 12 - 16: $10.00</li>
+                <li>Age 17 and up: $13.00</li>
+            </ul>
+             <form name="ageInput" action="javascript:priceCalculation()">
+                <label for="age">Age: </label>
+                <input type="text" name="age" id="age">
+                <input type = submit value = "Get Price!">
+             </form>
+             <div id="price"></div>
+         </main>
+        <footer>
+            <hr>
+            &copy; Nicolas Towery 2022
+        </footer>
+    </body>
+</html>

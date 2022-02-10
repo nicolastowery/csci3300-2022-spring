@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+    Nicolas Towery
+    CSCI 3350
+    Section 4
+    February 9, 2022
+-->
+<html lang = "en">
+    <head>
+        <title>Nicolas' Range Check App</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "../style.css">
+        <script>
+            function numberCalculation(){
+                let number = parseFloat(document.getElementById("number").value);
+                if(number >= 1 && number <= 10){
+                    document.getElementById("result").innerHTML="The value is in the range of the minimum and maximum.";
+                }
+                else{
+                    if(number > 10){
+                        document.getElementById("result").innerHTML="The value is greater than the maximum value of the range.";
+                    }
+                    else{
+                        document.getElementById("result").innerHTML="The value is lower than the minimum value of the range."
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Nicolas' Range Check App</h1>
+        </header>
+        <main>
+            <div>Enter a number in the range 1 - 10.</div>
+            <div id="result"></div>
+            <form name="interface" action="javascript:numberCalculation()">
+                <label for="number">Enter a number: </label>
+                <input type="number" id="number">
+                <input type="submit" value = "submit">
+            </form>
+        </main>
+        <footer>
+            <hr>
+            &copy; Nicolas Towery 2022
+        </footer>
+    </body>
+</html>

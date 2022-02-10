@@ -34,4 +34,23 @@ Single and Double quotes: only one line of string
 Backticks: multiline strings
     can also embed variables in a string like so: `the variable is ${x}`
 
+    backticks can do everything that ' and " can do and more, so why not just use it? 
+
 Exponents: Math.pow(a,b) or a**b
+
+==========================================================================================================================================================================
+
+parseFloat(3.99999) = 3.99999
+parseInt(3.99999) = 3
+    parseInt() DOESN'T round, it just drops the decimal (floating point) in general
+
+===============================================================================================================================================================================
+
+BINARY CODE
+
+01100001
+01110000
+01110010
+01110101
+
+128 64 32 16 8 4 1
