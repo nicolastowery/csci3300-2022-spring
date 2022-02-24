@@ -1,0 +1,10 @@
+unlike Java, JS will accet other values besides true and false as true and false. This is true with C++ as well
+    String: "" == false;
+            anything else == true;
+    Num: 0 == false;
+        anything else == true;
+
+IEEE 764
+to find if numbers are equal to eachother |a-b| < .0001
+.0001 is the threshold
+absolute value in JS is Math.abs(a-b)
